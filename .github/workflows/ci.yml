@@ -7,7 +7,7 @@ jobs:
       image: kirschbaumdevelopment/laravel-test-runner:8.1
 
     services:
-      mysql:
+      memcached:
         image: memcached:1.6
         ports:
           - 11211:11211
